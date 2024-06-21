@@ -55,7 +55,6 @@
     color: var(--accent-color);
 }
 
-
 .btn-action {
     color: var(--basic-color);
     background-color: var(--accent-color);
@@ -78,6 +77,41 @@
 
 nav {
     padding: 24px 64px;
+}
+
+/* MOBILE MENU */
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 50%;
+    z-index: 1000;
+    align-items: center;
+    background-color: var(--basic-color);
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.mobile-menu a {
+    margin: 8px 0;
+}
+
+#menu-toggle {
+    display: flex;
+}
+
+/* NAVBAR RESPONSIVE TABLET */
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    .mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 
@@ -116,6 +150,28 @@ img {
     padding: 80px 200px;
     background-color: rgba(68, 74, 255, 0.348);
 }
+
+/* HERO SECTION RESPONSIVE TABLET */
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    #hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-items {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #hero-section {
+        padding-top: 20%;
+        padding-bottom: 15%;
+        padding-left: 12%;
+    }
+}
+
+
+
 
 /* CONTENT SECTION */
 
@@ -184,6 +240,24 @@ img {
     margin: 96px 64px;
 }
 
+/* CONTENT SECTION RESPONSIVE TABLET */
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    #content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 13%;
+        margin-top: 10%;
+    }
+    
+    .title-text {
+        font-size: 35px;
+    }
+}
+
+
 /* MINI CARD SECTION */
 
 
@@ -247,6 +321,41 @@ img {
     width: 100%;
 }
 
+/* MINI CARD SECTION RESPONSIVE TABLET */
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    .mini-title {
+        font-size: 20px;
+    }
+    
+    .mini-subtitle {
+        font-size: 14px;
+    }
+    
+    .mini-text {
+        gap: 12px;
+    }
+    
+    .nothing {
+        font-size: 12px; 
+        padding: 2px 6px; 
+    }
+    
+    .content-min-card {
+        padding: 16px; 
+        gap: 16px; 
+    }
+    
+    .mini-card {
+        padding: 0px 0px 16px 0px; 
+        margin: 0 30px;
+    }
+    
+    .mini-card-content {
+        gap: 50px; 
+    }
+}
+
 
 /* FOOTER */
 
@@ -272,6 +381,14 @@ img {
     justify-content: space-between;
     background-color: var(--footer-color);
     padding: 80px 64px;
+}
+
+/* FOOTER RESPONSIVE TABLET */
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    .content-footer {
+        padding: 40px 64px;
+    }
 }
 
 

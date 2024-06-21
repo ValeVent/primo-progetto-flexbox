@@ -17,8 +17,8 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <section id="nav-hero">
-        <nav class="desktop">
+        <section id="nav-hero">
+            <nav class="desktop">
                 <div class="navbar">
                     <a class="logo" href="#">noname</a>
                     <div class="menu">
@@ -33,15 +33,22 @@
                         <a class="btn btn-action" href="#">Sign up</a>
                     </div>
                 </div>    
-        </nav>
-        <nav class="mobile">  
+            </nav>
+            <nav class="mobile">
                 <a class="logo" href="#">noname</a>
                 <div class="menu-mobile">
-                    <div class="menu">
-                        <a class="menu-item btn btn-action" href="#">Menu +</a>
+                    <button id="menu-toggle" class="menu-item btn btn-action">Menu +</button>
+                    <div id="mobile-menu" class="mobile-menu">
+                        <a class="menu-item btn" href="#">Home</a>
+                        <a class="menu-item btn" href="#">About</a>
+                        <a class="menu-item btn" href="#">Services</a>
+                        <a class="menu-item btn" href="#">Blog</a>
+                        <a class="menu-item btn" href="#">Contacts</a>
+                        <a class="menu-item btn" href="#">Login</a>
+                        <a class="menu-item btn btn-action" href="#">Sign up</a>
                     </div>
                 </div>
-        </nav>
+            </nav>
 
         <section id="hero-section">
             <div class="hero-items">
@@ -127,14 +134,14 @@
     </section>
 
     <footer>
-        <div class="content-footer">
+        <a href="#nav-hero" class="content-footer">
             <h1 class="title-footer">noname</h1>
             <p class="copy">© All rights reserved.</p>
-        </div>
+        </a>
     </footer>
 
 
 
-        <script src="" async defer></script>
+        <script src="funcions.js"></script>
     </body>
 </html>
