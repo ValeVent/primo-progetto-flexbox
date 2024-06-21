@@ -1,5 +1,3 @@
-// functions.js
-
 document.addEventListener("DOMContentLoaded", function() {
     var menuToggle = document.getElementById("menu-toggle");
     var mobileMenu = document.getElementById("mobile-menu");
