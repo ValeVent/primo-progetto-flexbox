@@ -1,14 +1,14 @@
-Sito Web con Flexbox
+# Sito Web con Flexbox
 
 Questo progetto è un sito web completo e responsivo, realizzato per dimostrare l'efficace utilizzo di HTML, CSS (con particolare enfasi su Flexbox) e JavaScript per la creazione di layout moderni e interattivi.
 
 
-Descrizione Approfondita del Progetto
+## Descrizione Approfondita del Progetto
 
 Il sito è costruito con un design pulito e moderno, focalizzato sulla reattività e sull'usabilità. Presenta una navigazione dinamica che si adatta tra desktop e mobile (con un menu hamburger), una sezione hero accattivante e sezioni di contenuto strutturate con diverse tipologie di card, tutte posizionate e stilizzate utilizzando le potenti funzionalità di Flexbox. Include anche animazioni CSS per migliorare l'esperienza utente.
 
 
-Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 - HTML5: Struttura semantica dell'intera pagina web, organizzata in sezioni logiche (Navbar, Hero, Content, Footer).
 
@@ -25,7 +25,7 @@ Tecnologie Utilizzate
 - JavaScript: Logica interattiva per la gestione del menu mobile, che si apre e chiude con un pulsante, migliorando la navigazione su schermi più piccoli.
 
 
-Funzionalità Principali
+## Funzionalità Principali
 
 - Navigazione Responsiva: Il sito presenta una navbar tradizionale per desktop che si trasforma in un menu hamburger interattivo per dispositivi mobili, garantendo un'ottima usabilità su ogni schermo.
 
@@ -38,17 +38,17 @@ Funzionalità Principali
 - Design Pulito e Moderno: Utilizzo di colori e tipografie che conferiscono al sito un aspetto professionale e contemporaneo.
 
 
-Come Avviare il Progetto
+## Come Avviare il Progetto
 
 Segui questi semplici passaggi per visualizzare il progetto localmente:
 
 
-Prerequisiti
+### Prerequisiti
 
 Non sono richiesti particolari prerequisiti oltre a un browser web moderno.
 
 
-Installazione
+### Installazione
 
 1. Clona il repository (o scarica la cartella del progetto):
 
@@ -61,7 +61,7 @@ Assicurati di sostituire 'sito-flexbox.git' con il nome esatto del tuo repositor
 cd sito-flexbox
 
 
-Avvio dell'Applicazione
+### Avvio dell'Applicazione
 
 - Assicurati che tutti i file immagine a cui fa riferimento il progetto (img/img.png, img/placeholder.png, img/place-2.png, ecc.) siano presenti nella cartella img all'interno della directory del progetto.
 
@@ -77,12 +77,12 @@ http-server .
 L'applicazione sarà accessibile all'indirizzo mostrato dal server (es. http://localhost:8080).
 
 
-Stato del Progetto
+## Stato del Progetto
 
 Questo progetto è un sito web completamente funzionale e responsivo, che serve come eccellente dimostrazione delle competenze nello sviluppo front-end, con un focus specifico sull'uso efficiente di Flexbox per il layout.
 
 
-Contatti
+## Contatti
 
 GitHub: https://github.com/ValeVent
 
