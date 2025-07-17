@@ -10,32 +10,32 @@ Il sito è costruito con un design pulito e moderno, focalizzato sulla reattivit
 
 ## Tecnologie Utilizzate
 
-- HTML5: Struttura semantica dell'intera pagina web, organizzata in sezioni logiche (Navbar, Hero, Content, Footer).
+- **HTML5**: Struttura semantica dell'intera pagina web, organizzata in sezioni logiche (Navbar, Hero, Content, Footer).
 
-- CSS3: La tecnologia principale per lo styling e il layout, con un forte utilizzo di:
+- **CSS3**: La tecnologia principale per lo styling e il layout, con un forte utilizzo di:
 
-  - Flexbox: Per la creazione di layout flessibili e responsivi in tutte le sezioni del sito.
+  - **Flexbox**: Per la creazione di layout flessibili e responsivi in tutte le sezioni del sito.
 
-  - Variabili CSS: Per una gestione coerente di colori e font.
+  - **Variabili CSS**: Per una gestione coerente di colori e font.
 
-  - Animazioni (@keyframes): Per effetti dinamici come il "bounce" sul logo e la trasformazione del colore nel footer.
+  - **Animazioni (@keyframes)**: Per effetti dinamici come il "bounce" sul logo e la trasformazione del colore nel footer.
 
-  - normalize.css: Per garantire la coerenza della resa del browser.
+  - **normalize.css**: Per garantire la coerenza della resa del browser.
 
-- JavaScript: Logica interattiva per la gestione del menu mobile, che si apre e chiude con un pulsante, migliorando la navigazione su schermi più piccoli.
+- **JavaScript**: Logica interattiva per la gestione del menu mobile, che si apre e chiude con un pulsante, migliorando la navigazione su schermi più piccoli.
 
 
 ## Funzionalità Principali
 
-- Navigazione Responsiva: Il sito presenta una navbar tradizionale per desktop che si trasforma in un menu hamburger interattivo per dispositivi mobili, garantendo un'ottima usabilità su ogni schermo.
+- **Navigazione Responsiva**: Il sito presenta una navbar tradizionale per desktop che si trasforma in un menu hamburger interattivo per dispositivi mobili, garantendo un'ottima usabilità su ogni schermo.
 
-- Sezione Hero Dinamica: Un'area principale con testo descrittivo e un'immagine, con layout che si adatta alle dimensioni del viewport.
+- **Sezione Hero Dinamica**: Un'area principale con testo descrittivo e un'immagine, con layout che si adatta alle dimensioni del viewport.
 
-- Sezioni di Contenuto Strutturate: Contenuto organizzato in diverse tipologie di "card" (una card principale e tre "mini-card"), dimostrando versatilità nel layout con Flexbox.
+- **Sezioni di Contenuto Strutturate**: Contenuto organizzato in diverse tipologie di "card" (una card principale e tre "mini-card"), dimostrando versatilità nel layout con Flexbox.
 
-- Animazioni e Interattività: Effetti visivi tramite animazioni CSS sull'hover e transizioni per migliorare l'esperienza utente.
+- **Animazioni e Interattività**: Effetti visivi tramite animazioni CSS sull'hover e transizioni per migliorare l'esperienza utente.
 
-- Design Pulito e Moderno: Utilizzo di colori e tipografie che conferiscono al sito un aspetto professionale e contemporaneo.
+- **Design Pulito e Moderno**: Utilizzo di colori e tipografie che conferiscono al sito un aspetto professionale e contemporaneo.
 
 
 ## Come Avviare il Progetto
@@ -84,8 +84,8 @@ Questo progetto è un sito web completamente funzionale e responsivo, che serve 
 
 ## Contatti
 
-GitHub: https://github.com/ValeVent
+- **GitHub**: https://github.com/ValeVent
 
-LinkedIn: https://www.linkedin.com/in/valentina-venturo
+- **LinkedIn**: https://www.linkedin.com/in/valentina-venturo
 
-Sito Web: http://www.valentinaventuro.it
+- **Sito Web**: http://www.valentinaventuro.it
